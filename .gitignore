@@ -1,0 +1,51 @@
+# Node_modules 폴더
+node_modules/
+
+# 빌드 출력 디렉토리
+dist/
+
+# 환경 변수 파일
+.env
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS 시스템 파일
+.DS_Store
+
+# Windows 시스템 파일
+Thumbs.db
+ehthumbs.db
+
+# IDE 설정 파일
+.vscode/
+.idea/
+
+# Babel 컴파일된 파일
+*.babel.js
+
+# 웹팩 번들 파일
+bundle.js
+bundle.js.map
+
+# TypeScript 빌드 출력
+*.tsbuildinfo
+
+# 테스트 커버리지 디렉토리
+coverage/
+
+# 로컬 환경 파일
+.local/
+
+# 서비스 워커 캐시
+.sw.cache
+
+# 각종 임시 파일
+*.tmp
+*.swp
+
+# 라이브러리/패키지별 추가 ignore 설정
+/.nuxt
+/.next
